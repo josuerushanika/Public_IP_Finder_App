@@ -8,7 +8,7 @@ function App() {
 
   return (
     <Card>
-    <h1> Your IP address is....</h1>
+    <h1> Your Public IP address is....</h1>
     <IpAddress/>
     </Card>
   )
