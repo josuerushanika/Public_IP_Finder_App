@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import classes from "./IpAddress.module.css";
 
 const IpAddress = () => {
     const [IpAddressDict, setIpAddressDict] = useState({});
@@ -19,6 +20,16 @@ const IpAddress = () => {
     
      return (
         <div>
+            {!httpError && (
+                <>
+                   <div className={classes.info}>
+                    <p>
+                        <span className={classes.blod}>Public IPv4 Address: </span>
+                        {IpAddressDict.query}
+                    </p>
+                   </div>
+                </>
+            )}
             <h1>{IpAddressDict.query}</h1>
             {httpError && <p>{httpError}</p>}
         </div>
