@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import classes from "./IpAddress.module.css";
+import LocationMap from "./LocationMap";
 
 const IpAddress = () => {
     const [IpAddressDict, setIpAddressDict] = useState({});
@@ -27,8 +28,20 @@ const IpAddress = () => {
                         <span className={classes.blod}>Public IPv4 Address: </span>
                         {IpAddressDict.query}
                     </p>
+
+                    <p>
+                        <span className={classes.blod}>Internet Service Provider: </span>
+                        {IpAddressDict.isp}
+                    </p>
+
+                    <p>
+                        <span className={classes.blod}>Location: </span>
+                        {IpAddressDict.city},  {IpAddressDict.country}
+                    </p>
                    </div>
+                   <LocationMap lat={IpAddressDict.lat} lon={IpAddressDict.lon} />
                 </>
+
             )}
             {/* <h1>{IpAddressDict.query}</h1> */}
             {httpError && <p>{httpError}</p>}
