@@ -52,7 +52,6 @@ A web app that displays a users IP address to them along with a map showing wher
   </ul>
 </details>
 
-<details>
 
 <!-- Features -->
 
