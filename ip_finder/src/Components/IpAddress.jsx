@@ -30,7 +30,7 @@ const IpAddress = () => {
                    </div>
                 </>
             )}
-            <h1>{IpAddressDict.query}</h1>
+            {/* <h1>{IpAddressDict.query}</h1> */}
             {httpError && <p>{httpError}</p>}
         </div>
     )
