@@ -1,0 +1,10 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+    
+}

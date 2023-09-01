@@ -1,12 +1,16 @@
-import { useState } from 'react'
+import Card from './UI/Card'
 
 import './App.css'
+import IpAddress from './Components/IpAddress'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <h1> Your IP address is....</h1>
+    <Card>
+    <h1> Your Public IP address is....</h1>
+    <IpAddress/>
+    </Card>
   )
 }
 
