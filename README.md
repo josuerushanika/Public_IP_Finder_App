@@ -1,4 +1,14 @@
 
+<div align="center">
+
+  <img src="img/ip.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>IP Location App</b></h3>
+
+</div>
+
+
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
