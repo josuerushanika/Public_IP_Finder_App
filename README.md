@@ -90,6 +90,10 @@ If you want to use my project you should clone it into your computer and then op
 
 To get a local copy up and running, follow these steps.
 
+   git clone https://github.com/josuerushanika/Public_IP_Finder_App.git
+   
+   npm run dev
+   
 ### Prerequisites
 
 In order to run this project you need:
